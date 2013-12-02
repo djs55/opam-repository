@@ -1,0 +1,11 @@
+opam-version: "1"
+maintainer: "dave@recoil.org"
+build: []
+remove: []
+depends: [
+  "xen-block-driver" {>= "0.2.5" }
+  "mirage-types" {>= "0.1.0" }
+]
+conflicts: ["mirage-block-unix"]
+ocaml-version: [>= "4.00.0"]
+os: ["linux"]

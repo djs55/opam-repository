@@ -12,6 +12,7 @@ depends: [
   "shared-memory-ring" {>= "0.4.3"}
   "xenstore" {>= "1.2.5"}
   "ipaddr" {>= "0.2.3"}
+  "mirage-types" {>= "0.1.0"}
 ]
 conflicts: ["mirage-unix"]
 ocaml-version: [>= "4.00.0"]

@@ -13,6 +13,7 @@ depends: [
   "tuntap" {>= "0.7.0"}
   "ipaddr" {>= "0.2.3"}
   "fd-send-recv"
+  "mirage-types" {>= "0.1.0"}
 ]
 conflicts: ["mirage-xen"]
 ocaml-version: [>= "4.00.0"]
